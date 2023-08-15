@@ -61,3 +61,9 @@ Detect the secrets in code base
 `gitleaks detect –report-path`
 
 `gitleaks-report.json –no-git`
+
+This will scan the current code repository for sensitive information. If GitLeaks finds any sensitive information, it will alert you and provide the file name and line number where the sensitive information was found. You can view the detailed report in the gitleaks-report.json file. The secrets are detected by the predefined rule. You can definitely add the new rule in the gitleaks.toml file.You can proactively identify and remediate potential security vulnerabilities in your codebase  pre-commit hook
+
+gitleaksignore
+
+False positive findings can be ignored by creating a `.gitleaksignore` file at the root of your repo. This file will help to ignore the false positive findings from the repo which a developer would like to keep as part of the codebase.
