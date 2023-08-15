@@ -67,3 +67,7 @@ This will scan the current code repository for sensitive information. If GitLeak
 gitleaksignore
 
 False positive findings can be ignored by creating a `.gitleaksignore` file at the root of your repo. This file will help to ignore the false positive findings from the repo which a developer would like to keep as part of the codebase.
+
+GitLeaks is a powerful tool that can help you keep your codebase secure by alerting you to any sensitive information that may have been accidentally committed. By installing and configuring GitLeaks, you can ensure that your codebase is secure and that you are aware of any sensitive information that may be present.
+
+https://github.com/gitleaks/gitleaks
