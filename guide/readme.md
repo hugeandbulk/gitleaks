@@ -51,3 +51,13 @@ Command — Description
 `protect` — protect secrets in code
 
 `version` — display gitleaks version
+
+Get all the available commands
+
+`Gitleaks –help`
+ 
+Detect the secrets in code base
+
+`gitleaks detect –report-path`
+
+`gitleaks-report.json –no-git`
