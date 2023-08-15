@@ -1,0 +1,2 @@
+# gitleaks
+gitleaks, when needed! 
