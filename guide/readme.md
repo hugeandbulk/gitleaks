@@ -29,3 +29,25 @@ git clone
 `cd gitleaks`
 
 `make build`
+
+**Running a Scan**
+
+Once you have installed and configured GitLeaks, you can run a scan by executing the following command:
+
+`Usage:`
+
+`gitleaks [command]`
+ 
+Available Commands:
+
+Command — Description
+
+`completion` — generate the auto completion script for the specified shell
+
+`detect` — detect secrets in code
+
+`help`	— Help about any command
+
+`protect` — protect secrets in code
+
+`version` — display gitleaks version
